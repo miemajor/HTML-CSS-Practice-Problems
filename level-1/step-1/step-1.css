@@ -9,18 +9,25 @@
 .content-left {
     width: 34%;
     /* This height is a placeholder. You will need to make some adjustments to get this container to look like the design. */
-    height: 100px;
+    height: 900px;
+    width: 25%;
     background: #565555;
+    
 }
 
 
 /* I would suggest using float to get this container in its desired location. */
 
 .content-mid {
-    width: 66%;
+    
+    width: 75%;  
     /* This height is a placeholder. You will need to make some adjustments to get this container to look like the design. */
-    height: 100px;
+    height: 900px;
     background: #B0B0B0;
+    float: right;
+    margin: -900px;
+    margin-right: 0px;
+    
 }
 
 /* I would suggest using position to get this container to the bottom of the screen  */
